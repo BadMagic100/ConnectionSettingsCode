@@ -125,6 +125,11 @@ namespace ConnectionSettingsCode
 
         private IEnumerator DisplayMessage(SmallButton button, float delay, string text)
         {
+            if (text[text.Length - 1] != '\n')
+            {
+                text += '\n';
+            }
+
             string cachedText = button.Text.text;
             button.Lock();
             button.Text.text = text;
