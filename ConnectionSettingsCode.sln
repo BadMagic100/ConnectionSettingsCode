@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConnectionSettingsCode", "ConnectionSettingsCode\ConnectionSettingsCode.csproj", "{6591AF74-3219-4E5C-A62D-61CE498561C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Files", "Solution Files", "{A0425654-73E6-4E76-A1E8-D44EA3A22805}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\build.yml = .github\workflows\build.yml
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6591AF74-3219-4E5C-A62D-61CE498561C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6591AF74-3219-4E5C-A62D-61CE498561C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6591AF74-3219-4E5C-A62D-61CE498561C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6591AF74-3219-4E5C-A62D-61CE498561C7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF05384B-BBC9-4472-8A69-E827C4BDA680}
+	EndGlobalSection
+EndGlobal
